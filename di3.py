@@ -1,8 +1,5 @@
-n = input("please enter 3-digit number: ")
-
-x = int(n)
-
-# print(x)
-for i in range(x):
-    # r = x[i]
-    print(x[i])
+number = input("Enter a number: ")
+sum = 0
+for i in number:
+    sum += int(i)
+print("The sum of the digits is:", sum)
