@@ -11,16 +11,22 @@ def rem_vow(mystr):
 print(rem_vow("pokemon"))
 
 # Write a function that takes a number as input and returns its factorial.
-def nam_tofact(mynam):
-    mynam = int(mynam)
-    return mynam**2
-print(nam_tofact("5"))    
+def factorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result *= i
+    return result
+
+print(factorial(8))    
 
 # Write a function that takes two lists of equal length as input and returns a new list containing the elements of both lists, alternating between the two.
 
-# def nix_list(list1, list2):
-#     newlist = []
-#     newlist.append
+def nix_list(list1, list2):
+    newlist = []
+    for i in range(len(list1)):
+        newlist.append(list1[i])
+        newlist.append(list1[2])
+    return newlist
 
 # Write a function that takes a string as input and returns the number of times a specific character appears in the string.
 
