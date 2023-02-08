@@ -7,4 +7,4 @@ while x <= y:
     else:
         print(x)    
     x += 1     
-input("Press Enter to exit")        
+input("Press Enter to exit")
