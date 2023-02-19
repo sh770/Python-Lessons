@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}"> -->
+    <!-- <script defer src="../static/script.js"></script> -->
+    <!-- <script src="{{ url_for('static', filename='js/script.js')}}"></script> -->
+    <script defer src="../static/js/script.js"></script>
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <title>Document</title>
+</head>
+<body><h1 style="text-align:center;color: bisque;">משחק איקס עיגול</h1>
+    <!-- create a 3 X 3 table with botton in every box -->
+
+    <div class="container">
+        <div class="player1">
+            <h1 id="playerOne">Player 1</h1>
+            <h2 id="player1Score">0</h2>
+        </div>
+            <div class="table_div">
+                <table>
+                    <tr>
+                        <td><button class="btn" id="btn1"></button></td>
+                        <td><button class="btn" id="btn2"></button></td>
+                        <td><button class="btn" id="btn3"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" id="btn4"></button></td>
+                        <td><button class="btn" id="btn5"></button></td>
+                        <td><button class="btn" id="btn6"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn" id="btn7"></button></td>
+                        <td><button class="btn" id="btn8"></button></td>
+                        <td><button class="btn" id="btn9"></button></td>
+                    </tr>
+                </table>
+            </div>
+        <div class="player2">
+            <h1 id="playerTwo">Player 2</h1>
+            <h2 id="player2Score">0</h2>
+        </div>
+    </div>
+ 
+    <div class="side_manu container">
+        <button id="reset_btn" onclick="reset()">נקה</button>
+        <button id="register" onclick="register()">רשום שחקנים</button>
+        <button id="reset_btn" onclick="resetAll()">נקה הכל</button>
+    </div>
+</body>
+</html>
