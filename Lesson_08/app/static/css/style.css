@@ -1,5 +1,5 @@
 body{
-    background-color: #060119ed;
+    background-color: black;
     direction: rtl;
     
 }
@@ -12,16 +12,14 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    position: absolute;
+    position: relative;
     text-align: center;
- 
-}
+    background-color: black;
+ }
 
 
 .table_div{
-    /* background-image: url(static/pjot.png); */
     background-size: cover;
-    /* opacity: 0.8;   */
     width: 500px;
     height: 500px;
     border-radius: 10px;
@@ -48,12 +46,12 @@ body{
 
 .side_manu{
     position: relative;
-    border: #ffffff;
+    border: #ffffff solid 1px;;
     width: 500px;
     height: 100px;
     margin: auto;
     bottom: 0px;
-    /* left: 0px; */
+    left: 0px;
 }
 
 .player1{
